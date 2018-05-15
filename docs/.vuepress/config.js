@@ -1,10 +1,14 @@
 module.exports = {
     title: 'Hello VuePress',
     description: 'work around',
+    base: "/",
     themeConfig: {
         sidebar: [
             '/',
-            '/memo'
+            '/memo/',
+        ],
+        nav: [
+            { text: 'Home', link: '/' }
         ]
-    }
+    },
 };
