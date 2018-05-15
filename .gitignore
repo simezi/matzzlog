@@ -3,3 +3,5 @@
 \.vuepress/dist/
 
 \.idea/
+
+yarn-error\.log
