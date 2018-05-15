@@ -1,0 +1,14 @@
+{
+  "name": "matzzlog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "matzz <matsubaray@eac.ne.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "vuepress": "^0.8.4"
+  }
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
