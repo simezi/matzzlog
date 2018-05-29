@@ -5,3 +5,13 @@ backend:
 
 public_folder: ".vuepress/dist/"
 media_folder: ".vuepress/dist/assets/img"
+
+collections:
+  - name: "doc"
+    label: "Doc"
+    folder: "docs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
