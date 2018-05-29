@@ -11,9 +11,4 @@ module.exports = {
             { text: 'Home', link: '/' }
         ]
     },
-    backend: {
-        name: 'github',
-        repo: 'simezi/matzzlog',
-        branch: 'master',
-    }
 };

@@ -1,0 +1,7 @@
+backend:
+  name: github
+  repo: simezi/matzzlog
+  branch: master
+
+public_folder: ".vuepress/dist/"
+media_folder: ".vuepress/dist/assets/img"
